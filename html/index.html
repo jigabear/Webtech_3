@@ -6,22 +6,32 @@
     <meta name="description">
     <meta name="keywords">
     <link rel="stylesheet" type="text/css" href="../styles/myStyle.css">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+
     <meta name="viewport" content="width=device-width">
     <title>Webshop</title>
 </head>
 
 <body id="body">
-    <header id="header">
-        <div class="container">
-            <div id="branding">
-                <h1 id="head">Webshop</h1>
+    <header>
+        <div class="top_head">
+            <!-- Defining the top head element -->
+            <div class="logo">
+                <!-- Defining the logo element -->
+                <a href="index.html">
+                    <img src="../images/logoUtrecht.png" title="E-Store template" alt="E-Store template" style="width:8%;height:8%;" />
+                </a>
             </div>
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="loginPage.html">Log in</a></li>
-            </nav>
+            <h1>hoi</h1>
+        </div>
+
+        <section id="submenu">
+            <!-- Defining the sub menu -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li id="loginButton"><a href="loginPage.html">Log in</a></li>
+            </ul>
             <section id="search">
                 <!-- Search form -->
                 <form action="#" onsubmit="return false;" method="get">
@@ -29,7 +39,9 @@
                     <input type="submit" value="Search">
                 </form>
             </section>
-        </div>
+        </section>
+
+
     </header>
 
     <footer id="footer">
