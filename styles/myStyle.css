@@ -1,206 +1,155 @@
-    #body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
-        line-height: 1.5;
-        padding: 0px;
-        margin: 0;
-        background-color: #f4f4f4;
-    }
-    
-    .container {
-        text-align: justify;
-        text-justify: inter-word;
-        width: 80%;
-        margin: auto;
-        overflow: hidden;
-    }
-    
-    .container img {
-        float: left;
-        margin-right: 10px;
-    }
-    
-    ul {
-        margin: 0;
-        padding: 0;
-    }
-    
-    #header {
-        background: #35424a;
-        color: #ffffff;
-        padding-top: 30px;
-        min-height: 70px;
-        border-bottom: #f0b501 3px solid;
-    }
-    
-    header a {
-        color: #ffffff;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 16px;
-    }
-    
-    header li {
-        display: inline;
-        padding: 0 20px 0 20px;
-    }
-    
-    header #branding {
-        float: left;
-    }
-    
-    header #branding h1 {
-        margin: 0;
-        margin-left: -250;
-    }
-    
-    header nav {
-        float: right;
-        margin-top: 10px;
-    }
-    
-    header .current a {
-        color: #f0b501;
-        font-weight: bold;
-    }
-    
-    header a:hover {
-        color: #cccccc;
-        font-weight: bold;
-    }
-    
-    #footer {
-        padding: 20px;
-        margin-top: 20px;
-        color: #ffffff;
-        background-color: #f0b501;
-        text-align: center;
-    }
-    
-    #contactForm {
-        width: 80%;
-        margin: auto;
-        margin-top: 30px;
-        overflow: hidden;
-    }
-    
-    #contactForm h2 {
-        margin: auto;
-    }
-    
-    input[type=text],
-    input[type=email],
-    textarea {
-        box-sizing: border-box;
-        border: 2px solid #35424a;
-        border-radius: 4px;
-    }
-    
-    .responsive__image {
-        max-width: 100%;
-        max-width: 580px;
-        height: auto;
-    }
-    
-    table {
-        border-collapse: collapse;
-        width: 100%;
-    }
-    
-    th,
-    td {
-        text-align: left;
-        border: 2px solid #ddd;
-        padding: 8px;
-    }
-    
-    #furtherreading a:link {
-        color: #0033cc;
-    }
-    
-    #furtherreading a:visited {
-        color: purple;
-    }
-    
-    #furtherreading a:hover {
-        color: #0099ff;
-    }
-    
-    #firstname,
-    #lastname {
-        margin-left: 25px;
-    }
-    
-    #message {
-        margin-left: 34px;
-    }
-    
-    #article {
-        display: block;
-    }
-    
-    #aside {
-        display: block;
-    }
-    
-    #section {
-        display: block;
-    }
-    
-    .reskinLink h1 {
-        cursor: pointer;
-        color: #000099;
-        text-decoration: underline;
-    }
-    
-    #listContainer {
-        width: 100%;
-    }
-    
-    #bookInfo {
-        width: 100%
-    }
-    
-    #author {
-        width: 100%;
-    }
-    /*#search {
-        float: right;
-        margin: 21px 41px 0 0;
-        text-align: right;
-    }*/
-    /*#search form {
-        float: right;
-    }*/
-    
-    #login {
-        border: 3px solid #f1f1f1;
-        text-align: center;
-    }
-    
-    #inputEmail,
-    #inputPsw,
-    #inputFname,
-    #inputLname {
-        width: 20%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        box-sizing: border-box;
-    }
-    
-    #loginSubmit,
-    #signUpSubmit {
-        background-color: #4CAF50;
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        cursor: pointer;
-        width: 20%;
-    }
-    
-    #loginSubmit:hover {
-        opacity: 0.8;
-    }
+/* base styles */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* header section */
+
+header {
+    background: url("../images/header-bg.png") repeat scroll left top #fff;
+    border-bottom: 2px solid #e0e0e0;
+    position: relative;
+    z-index: 10;
+}
+
+.top_head {
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 37px 0 0 39px;
+}
+
+.logo h1 {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    width: fit-content;
+    border: 1px solid black;
+    margin: 0px;
+}
+
+
+/*navigation menu*/
+
+#submenu {
+    background: #ffffff;
+    border: 1px solid #E0E0E0;
+    height: 34px;
+    margin: 20px 40px;
+}
+
+#submenu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#submenu li {
+    float: left;
+    line-height: 1em;
+    list-style: none outside none;
+    margin: 0;
+    position: relative;
+}
+
+#search form input[type="text"] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E0E0E0;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 23px;
+    padding: 5px;
+    width: 68%;
+}
+
+#search form input[type="submit"] {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-left-width: 0px;
+    color: #383838;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 34px;
+    padding: 0;
+    width: 8%;
+}
+
+#submenu li a {
+    background: url("../images/smenup.png") no-repeat scroll 0 9px transparent;
+    border-right: 1px solid #E0E0E0;
+    color: #383838;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    margin: 0 0 0 19px;
+    padding: 9px 18px 11px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#submenu li#loginButton {
+    float: right;
+    border-left: 1px solid #E0E0E0;
+}
+
+#submenu li a:hover {
+    background-image: url("../images/smenua.png");
+}
+
+#login {
+    border: 3px solid #f1f1f1;
+    text-align: center;
+}
+
+
+/* Login screen */
+
+#inputEmail,
+#inputPsw,
+#inputFname,
+#inputLname {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#loginSubmit,
+#signUpSubmit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+#loginSubmit:hover {
+    opacity: 0.8;
+}
+
+
+/* footer */
+
+#footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #f0b501;
+    text-align: center;
+}
