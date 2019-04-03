@@ -11,18 +11,28 @@
     <title>Log in</title>
 </head>
 
-<body id="body">
-    <header id="header">
-        <div class="container">
-            <div id="branding">
-                <h1 id="head">Webshop</h1>
+<body>
+    <header>
+        <div class="top_head">
+            <!-- Defining the top head element -->
+            <div class="logo">
+                <!-- Defining the logo element -->
+                <h1>Utrecht bookstore</h1>
+
+                <a href="index.html">
+                    <img src="../images/logoUtrecht.png" alt="Utrecht University logo" style="width:8%;height:8%;" />
+                </a>
             </div>
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="loginPage.html">Log in</a></li>
-            </nav>
+        </div>
+
+        <section id="submenu">
+            <!-- Defining the sub menu -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bookShop.html">Books</a></li>
+                <li class="current" id="loginButton"><a href="loginPage.html">Log in</a></li>
+                <li class="current" id="signupButton"><a href="signUpPage.html">Sign up</a></li>
+            </ul>
             <section id="search">
                 <!-- Search form -->
                 <form action="#" onsubmit="return false;" method="get">

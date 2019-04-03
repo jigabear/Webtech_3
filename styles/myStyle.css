@@ -99,7 +99,8 @@ header {
     text-transform: uppercase;
 }
 
-#submenu li#loginButton {
+#submenu li#signupButton,
+li#loginButton {
     float: right;
     border-left: 1px solid #E0E0E0;
 }

@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="../styles/myStyle.css">
     <script type="text/javascript" src="../js/test.js"></script>
     <meta name="viewport" content="width=device-width">
-    <title>Webshop</title>
+    <title>Sign up</title>
 </head>
 
 <body>
@@ -16,11 +16,12 @@
         <div class="top_head">
             <!-- Defining the top head element -->
             <div class="logo">
-                    <a href="index.html">
-                            <img src="../images/logoUtrecht.png" alt="Utrecht University logo" style="width:8%;height:8%;" />
-                    </a>
                 <!-- Defining the logo element -->
                 <h1>Utrecht bookstore</h1>
+
+                <a href="index.html">
+                    <img src="../images/logoUtrecht.png" alt="Utrecht University logo" style="width:8%;height:8%;" />
+                </a>
             </div>
         </div>
 
@@ -28,9 +29,9 @@
             <!-- Defining the sub menu -->
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="bookShop.html">Books</a></li>
+                <li class="current"><a href="bookShop.html">Books</a></li>
                 <li id="loginButton"><a href="loginPage.html">Log in</a></li>
-                <li id="signupButton"><a href="signUpPage.html">Sign up</a></li>
+                <li class="current" id="signupButton"><a href="signUpPage.html">Sign up</a></li>
             </ul>
             <section id="search">
                 <!-- Search form -->
@@ -39,10 +40,9 @@
                     <input type="submit" value="Search">
                 </form>
             </section>
-        </section>
-
-
+        </div>
     </header>
+
 
     <footer id="footer">
         <p>Utrecht University &copy; 2019</p>
