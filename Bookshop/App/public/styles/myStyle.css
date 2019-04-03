@@ -1,0 +1,156 @@
+/* base styles */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* header section */
+
+header {
+    background: url("../images/header-bg.png") repeat scroll left top #fff;
+    border-bottom: 2px solid #e0e0e0;
+    position: relative;
+    z-index: 10;
+}
+
+.top_head {
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    padding: 37px 0 0 39px;
+}
+
+.logo h1 {
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    width: fit-content;
+    border: 1px solid black;
+    margin: 0px;
+}
+
+
+/*navigation menu*/
+
+#submenu {
+    background: #ffffff;
+    border: 1px solid #E0E0E0;
+    height: 34px;
+    margin: 20px 40px;
+}
+
+#submenu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#submenu li {
+    float: left;
+    line-height: 1em;
+    list-style: none outside none;
+    margin: 0;
+    position: relative;
+}
+
+#search form input[type="text"] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E0E0E0;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 23px;
+    padding: 5px;
+    width: 68%;
+}
+
+#search form input[type="submit"] {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-left-width: 0px;
+    color: #383838;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 34px;
+    padding: 0;
+    width: 8%;
+}
+
+#submenu li a {
+    background: url("../images/smenup.png") no-repeat scroll 0 9px transparent;
+    border-right: 1px solid #E0E0E0;
+    color: #383838;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    margin: 0 0 0 19px;
+    padding: 9px 18px 11px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#submenu li#signupButton,
+li#loginButton {
+    float: right;
+    border-left: 1px solid #E0E0E0;
+}
+
+#submenu li a:hover {
+    background-image: url("../images/smenua.png");
+}
+
+#login {
+    border: 3px solid #f1f1f1;
+    text-align: center;
+}
+
+
+/* Login screen */
+
+#inputEmail,
+#inputPsw,
+#inputFname,
+#inputLname {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#loginSubmit,
+#signUpSubmit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+#loginSubmit:hover {
+    opacity: 0.8;
+}
+
+
+/* footer */
+
+#footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #f0b501;
+    text-align: center;
+}
