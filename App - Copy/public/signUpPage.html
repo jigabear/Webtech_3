@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description">
+    <meta name="keywords">
+    <link rel="stylesheet" type="text/css" href="../styles/myStyle.css">
+    <script type="text/javascript" src="../js/test.js"></script>
+    <meta name="viewport" content="width=device-width">
+    <title>Sign up</title>
+</head>
+
+<body id="body">
+    <header id="header">
+        <div class="container">
+            <div id="branding">
+                <h1 id="head">Webshop</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li id="loginButton"><a href="loginPage.html">Log in</a></li>
+                    <li class="current" id="signupButton"><a href="signUpPage.html">Sign up</a></li>
+            </nav>
+            <section id="search">
+                <!-- Search form -->
+                <form action="#" onsubmit="return false;" method="get">
+                    <input type="text" value="Search..">
+                    <input type="submit" value="Search">
+                </form>
+            </section>
+        </div>
+    </header>
+
+    <section id=login>
+        <p id=loginText>Please enter your credentials</p>
+        <label for="fName"></label>
+        <input type="text" id="inputFname" placeholder="Enter First Name" name="fName" required>
+        <br>
+        <label for="lName"></label>
+        <input type="text" id="inputLname" placeholder="Enter Last Name" name="lName" required>
+        <br>
+        <label for="email"></label>
+        <input type="email" id="inputEmail" placeholder="Enter Email" name="email" required>
+        <br>
+        <label for="psw"></label>
+        <input type="password" id="inputPsw" placeholder="Enter Password" name="psw" required>
+        <br>
+        <input class="button" id=signUpSubmit type="submit" value="Sign up" onclick="mylogin();return false"/>
+
+    </section>
+
+    <footer id="footer">
+        <p>Utrecht University &copy; 2019</p>
+    </footer>
+
+
+</body>
+
+</html>

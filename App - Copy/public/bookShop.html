@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description">
+    <meta name="keywords">
+    <link rel="stylesheet" type="text/css" href="stylesheets/myStyle.css">
+    <script type="text/javascript" src="js/test.js"></script>
+    <meta name="viewport" content="width=device-width">
+    <title>Book Store</title>
+
+    <!-- Javascript framework -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container" id="bookShop">
+        <header>
+            <div class="top_head">
+                <!-- Defining the top head element -->
+                <div class="logo">
+                    <!-- Defining the logo element -->
+                    <h1>Utrecht bookstore</h1>
+
+                    <a href="index.html">
+                        <img src="images/logoUtrecht.png" alt="Utrecht University logo" style="width:8%;height:8%;" />
+                    </a>
+                </div>
+            </div>
+
+            <section id="submenu">
+                <!-- Defining the sub menu -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="bookShop.html">Books</a></li>
+                    <li id="loginButton"><a href="loginPage.html">Log in</a></li>
+                    <li class="current" id="signupButton"><a href="signUpPage.html">Sign up</a></li>
+                </ul>
+                <section id="search">
+                    <!-- Search form -->
+                    <form action="#" onsubmit="return false;" method="get">
+                        <input type="text" placeholder="Zoeken..." v-model="search">
+                        <input type="submit" value="Search">
+                    </form>
+                </section>
+            </section>
+        </header>
+
+        <div id="books" class="grid-container">
+            <div class="book" v-for="book in booksToShow" v-show="matchesFilter(book)">
+                <img :src="book.image" v-if="book.image" />
+                <span>{{book.title}}</span>
+                <span>{{book.author}}</span>  
+                <span>{{book.genre}}</span>  
+                <span>{{book.publisher}}</span>                
+                <span>&euro; {{book.price}}</span>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <p>Utrecht University &copy; 2019</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/bookShop.js"></script>
+</body>
+
+</html>
