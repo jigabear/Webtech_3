@@ -59,3 +59,7 @@ function getElementFromNode(name, node) {
   var valElement = "<p>" + name + ": " + val + "</p>";
   return valElement;
 }
+
+function confirmPurchase(){
+       var conf = confirm("Are you sure you want to purchase this book?");
+}
