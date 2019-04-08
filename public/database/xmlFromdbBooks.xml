@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<catalog>
+
+<book id="bk101">
+      <author>Gambardella, Matthew</author>
+      <title>XML Developer's Guide</title>
+      <genre>Computer</genre>
+      <price>44.95</price>
+      <publisher>Penguin Random House</publisher>
+      <image>images/logoUtrecht.png</image>
+   </book>
+<book id="bk102">
+      <author>Ralls, Kim</author>
+      <title>Midnight Rain</title>
+      <genre>Fantasy</genre>
+      <price>5.95</price>
+      <publisher>Penguin Random House</publisher>
+      <image>images/logoUtrecht.png</image>
+   </book>
+<book id="bk103">
+      <author>Corets, Eva</author>
+      <title>Maeve Ascendant</title>
+      <genre>Fantasy</genre>
+      <price>5.95</price>
+      <publisher>Penguin Random House</publisher>
+      <image>images/logoUtrecht.png</image>
+   </book>
+<book id="bk104">
+      <author>Corets, Eva</author>
+      <title>Oberon's Legacy</title>
+      <genre>Fantasy</genre>
+      <price>5.95</price>
+      <publisher>Penguin Random House</publisher>
+      <image>images/logoUtrecht.png</image>
+   </book>
+<book id="bk105">
+      <author>Corets, Eva</author>
+      <title>The Sundered Grail</title>
+      <genre>Fantasy</genre>
+      <price>5.95</price>
+      <publisher>Penguin Random House</publisher>
+      <image>images/logoUtrecht.png</image>
+   </book>
+<book id="bk106">
+      <author>Randall, Cynthia</author>
+      <title>Lover Birds</title>
+      <genre>Romance</genre>
+      <price>4.95</price>
+      <publisher>Penguin Random House</publisher>
+      <image>images/logoUtrecht.png</image>
+   </book>
+<book id="bk107">
+      <author>Thurman, Paula</author>
+      <title>Splish Splash</title>
+      <genre>Romance</genre>
+      <price>4.95</price>
+      <publisher>Hachette Livre</publisher>
+      <image>images/logoUtrecht.png</image>
+   </book>
+<book id="bk108">
+      <author>Knorr, Stefan</author>
+      <title>Creepy Crawlies</title>
+      <genre>Horror</genre>
+      <price>4.95</price>
+      <publisher>Hachette Livre</publisher>
+      <image>images/logoUtrecht.png</image>
+   </book>
+<book id="bk109">
+      <author>Kress, Peter</author>
+      <title>Paradox Lost</title>
+      <genre>Science Fiction</genre>
+      <price>6.95</price>
+      <publisher>HarperCollins</publisher>
+      <image>images/logoUtrecht.png</image>
+   </book>
+<book id="bk110">
+      <author>O'Brien, Tim</author>
+      <title>Microsoft .NET: The Programming Bible</title>
+      <genre>Computer</genre>
+      <price>36.95</price>
+      <publisher>HarperCollins</publisher>
+      <image>images/logoUtrecht.png</image>
+   </book>
+<book id="bk111">
+      <author>O'Brien, Tim</author>
+      <title>MSXML3: A Comprehensive Guide</title>
+      <genre>Computer</genre>
+      <price>36.95</price>
+      <publisher>Pan Macmillan</publisher>
+      <image>images/logoUtrecht.png</image>
+   </book>
+<book id="bk112">
+      <author>Galos, Mike</author>
+      <title>Visual Studio 7: A Comprehensive Guide</title>
+      <genre>Computer</genre>
+      <price>49.95</price>
+      <publisher>Pan Macmillan</publisher>
+   </book>
+<book id="bk113">
+      <author>Burns, Anna</author>
+      <title>Milkman: A Novel</title>
+      <genre>Coming of Age</genre>
+      <price>19.95</price>
+      <publisher>Graywolf Press</publisher>
+   </book>
+<book id="bk114">
+      <author>Greer, Andrew Sean</author>
+      <title>Less: A Novel</title>
+      <genre>Comedy</genre>
+      <price>15.95</price>
+      <publisher>Lee Boudreaxu</publisher>
+   </book>
+<book id="bk115">
+      <author>Kelly, Brynn</author>
+      <title>Forbidden River</title>
+      <genre>Multicultural Romance</genre>
+      <price>20.95</price>
+      <publisher>HQN Books</publisher>
+   </book>
+<book id="bk116">
+      <author>Thomas, Angie</author>
+      <title>The Hate U Give</title>
+      <genre>Young Adult</genre>
+      <price>26.95</price>
+      <publisher>Balzer + Bray</publisher>
+   </book>
+<book id="bk117">
+      <author>Moyes, Jojo</author>
+      <title>Still Me: A Novel</title>
+      <genre>Family Life</genre>
+      <price>36.95</price>
+      <publisher>Pan Macmillan</publisher>
+   </book>
+<book id="bk118">
+      <author>Sigrid Nunez</author>
+      <title>The Friend: A Novel</title>
+      <genre>Animal</genre>
+      <price>16.95</price>
+      <publisher>Riverhead Books</publisher>
+   </book>
+<book id="bk119">
+      <author>Edugyan, Esi</author>
+      <title>Washington Black</title>
+      <genre>Historical</genre>
+      <price>14.95</price>
+      <publisher>Knopf Publishing</publisher>
+   </book>
+<book id="bk120">
+      <author>Coates, Ta-Nehisi</author>
+      <title>Between the World and Me</title>
+      <genre>Biography</genre>
+      <price>17.95</price>
+      <publisher>Spiegel and Grau</publisher>
+   </book>
+<book id="bk121">
+      <author>Herbert, Frank</author>
+      <title>Dune</title>
+      <genre>Multicultural Romance</genre>
+      <price>24.95</price>
+      <publisher>Ace</publisher>
+   </book>
+<book id="bk122">
+      <author>Gambardella, Matthew</author>
+      <title>Computer Fam</title>
+      <genre>Computer</genre>
+      <price>40.95</price>
+      <publisher>Penguin Random House</publisher>
+   </book>
+<book id="bk123">
+      <author>Ralls, Kim</author>
+      <title>Fantasy Rain</title>
+      <genre>Fantasy</genre>
+      <price>15.95</price>
+      <publisher>Penguin Random House</publisher>
+   </book>
+<book id="bk124">
+      <author>Corets, Eva</author>
+      <title>Marvel Ascendant</title>
+      <genre>Fantasy</genre>
+      <price>20.95</price>
+      <publisher>Penguin Random House</publisher>
+   </book>
+<book id="bk125">
+      <author>Corets, Eva</author>
+      <title>Oberon's Adventure</title>
+      <genre>Slice of Life</genre>
+      <price>15.95</price>
+      <publisher>Penguin Random House</publisher>
+   </book>
+<book id="bk126">
+      <author>Corets, Eva</author>
+      <title>The Sundered Meal</title>
+      <genre>Cooking</genre>
+      <price>23.95</price>
+      <publisher>Penguin Random House</publisher>
+   </book>
+<book id="bk127">
+      <author>Randall, Cynthia</author>
+      <title>Loverboy</title>
+      <genre>Adult</genre>
+      <price>4.95</price>
+      <publisher>Penguin Random House</publisher>
+   </book>
+<book id="bk128">
+      <author>Thurman, Paula</author>
+      <title>Watergun</title>
+      <genre>Comedy</genre>
+      <price>14.95</price>
+      <publisher>Hachette Livre</publisher>
+   </book>
+<book id="bk129">
+      <author>Knorr, Stefan</author>
+      <title>Slenderman</title>
+      <genre>Horror</genre>
+      <price>41.95</price>
+      <publisher>Hachette Livre</publisher>
+   </book>
+<book id="bk130">
+      <author>Kress, Peter</author>
+      <title>What is life?</title>
+      <genre>Philosophy</genre>
+      <price>16.95</price>
+      <publisher>HarperCollins</publisher>
+   </book>
+<book id="bk131">
+      <author>O'Brien, Tim</author>
+      <title>Java for dummies 101</title>
+      <genre>Computer</genre>
+      <price>3.95</price>
+      <publisher>HarperCollins</publisher>
+   </book>
+<book id="bk132">
+      <author>O'Brien, Tim</author>
+      <title>HTML: I need healing</title>
+      <genre>Computer</genre>
+      <price>26.95</price>
+      <publisher>Pan Macmillan</publisher>
+   </book>
+<book id="bk133">
+      <author>Chen, Mike</author>
+      <title>Visual Studio 5: Introduction</title>
+      <genre>Computer</genre>
+      <price>19.95</price>
+      <publisher>Pan Macmillan</publisher>
+   </book>
+<book id="bk134">
+      <author>King, Stephen</author>
+      <title>The Shining</title>
+      <genre>Horror</genre>
+      <price>19.95</price>
+      <publisher>Graywolf Press</publisher>
+   </book>
+<book id="bk135">
+      <author>Rowling, J.K</author>
+      <title>Harry Potter: The Prisoner of Azkaban</title>
+      <genre>Fantasy</genre>
+      <price>10.95</price>
+      <publisher>Bloomsbury</publisher>
+   </book>
+<book id="bk136">
+      <author>Kelly, Brynn</author>
+      <title>Forbidden Kingdom</title>
+      <genre>Multicultural Romance</genre>
+      <price>20.95</price>
+      <publisher>HQN Books</publisher>
+   </book>
+<book id="bk137">
+      <author>Thomas, Hank</author>
+      <title>The Hate U Love</title>
+      <genre>Comedy</genre>
+      <price>26.95</price>
+      <publisher>Balzer + Bray</publisher>
+   </book>
+<book id="bk138">
+      <author>Moyes, Jojo</author>
+      <title>Still Us: A Novel</title>
+      <genre>Family Life</genre>
+      <price>36.95</price>
+      <publisher>Pan Macmillan</publisher>
+   </book>
+<book id="bk139">
+      <author>Sigrid Nunez</author>
+      <title>The Loner</title>
+      <genre>Animal</genre>
+      <price>16.95</price>
+      <publisher>Riverhead Books</publisher>
+   </book>
+<book id="bk140">
+      <author>Edugyan, Esi</author>
+      <title>Washington White</title>
+      <genre>Historical</genre>
+      <price>14.95</price>
+      <publisher>Knopf Publishing</publisher>
+   </book>
+<book id="bk141">
+      <author>Coates, Ta-Nehisi</author>
+      <title>Between the World and Trump's Wall</title>
+      <genre>Racism</genre>
+      <price>17.95</price>
+      <publisher>Spiegel and Grau</publisher>
+   </book>
+<book id="bk142">
+      <author>Herbert, Frank</author>
+      <title>Dank Memes</title>
+      <genre>Multicultural Romance</genre>
+      <price>24.95</price>
+      <publisher>Ace</publisher>
+   </book>
+<book id="bk143">
+      <author>Kress, Peter</author>
+      <title>Paranoid Host</title>
+      <genre>Horror</genre>
+      <price>46.95</price>
+      <publisher>HarperCollins</publisher>
+   </book>
+<book id="bk144">
+      <author>Gates, Bill</author>
+      <title>Microsoft .NET: The Beginning</title>
+      <genre>Computer</genre>
+      <price>36.95</price>
+      <publisher>HarperCollins</publisher>
+   </book>
+<book id="bk145">
+      <author>O'Brien, Henry</author>
+      <title>Javascript for newbs</title>
+      <genre>Computer</genre>
+      <price>36.95</price>
+      <publisher>Pan Macmillan</publisher>
+   </book>
+<book id="bk146">
+      <author>Galos, Mike</author>
+      <title>Visualisation of Data</title>
+      <genre>Computer</genre>
+      <price>29.95</price>
+      <publisher>Pan Macmillan</publisher>
+   </book>
+<book id="bk147">
+      <author>Kingsley, Anna</author>
+      <title>Man of Honor</title>
+      <genre>Adventure</genre>
+      <price>19.95</price>
+      <publisher>Graywolf Press</publisher>
+   </book>
+<book id="bk148">
+      <author>Greed, Justin</author>
+      <title>War on Art</title>
+      <genre>Action</genre>
+      <price>15.95</price>
+      <publisher>Lee Boudreaxu</publisher>
+   </book>
+<book id="bk149">
+      <author>Timberlake, Justin</author>
+      <title>Cry Me A River</title>
+      <genre>Romance</genre>
+      <price>14.95</price>
+      <publisher>HQN Books</publisher>
+   </book>
+<book id="bk150">
+      <author>What, Angie</author>
+      <title>What Are You Doing?</title>
+      <genre>Healing</genre>
+      <price>26.95</price>
+      <publisher>Balzer + Bray</publisher>
+   </book>
+<book id="bk151">
+      <author>Story, Same</author>
+      <title>Out of Titles</title>
+      <genre>Action</genre>
+      <price>36.95</price>
+      <publisher>Pan Macmillan</publisher>
+   </book>
+
+</catalog>
