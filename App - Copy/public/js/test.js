@@ -62,4 +62,11 @@ function getElementFromNode(name, node) {
 
 function confirmPurchase(){
        var conf = confirm("Are you sure you want to purchase this book?");
+       if (conf == true){
+         alert("You have purchased this book!");
+        //  dbUser.run('UPDATE accounts SET username = "Joshua" where id = 1');
+       }
+       else{
+         alert("Purchase has been canceled.");
+       }
 }

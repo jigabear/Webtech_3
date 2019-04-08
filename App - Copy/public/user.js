@@ -55,18 +55,22 @@ var dbUser = new sqlite3.Database(file);
 //Create a table of Users for the database. Email has to be a unique value.
 dbUser.serialize(function() {
     if (!exists) {
-        dbUser.run("CREATE TABLE accounts (`id` int(11) NOT NULL, `username` varchar(50) NOT NULL, `password` varchar(255) NOT NULL, `email` varchar(100) NOT NULL)");
+        dbUser.run("CREATE TABLE accounts (`id` int(11) NOT NULL, `username` varchar(50) NOT NULL, `password` varchar(255) NOT NULL, `email` varchar(100) NOT NULL UNIQUE)");
     }
-
-    //Insert data into Users. Deze data moet op een of andere manier eigenlijk uit de Sign-up form komen, maar geen flauw idee hoe precies.
     /*dbUser.run("INSERT OR IGNORE INTO Users (fName, lName, email, psw, productsPurchased) VALUES (?, ?, ?, ?, ?)", ["Marco", "Brouwer", "m.m.f.brouwer@students.uu.nl", "geitenkaas", "Watergun"]);
     dbUser.run("INSERT OR IGNORE INTO Users (fName, lName, email, psw, productsPurchased) VALUES (?, ?, ?, ?, ?)", ["Joshua", "Hicks", "j.j.m.hicks@students.uu.nl", "karnemelk", "WheelOfTime"]);*/
 
     dbUser.run("INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES (1, 'test', 'test', 'test@test.com')");
     /*dbUser.run("ALTER TABLE `accounts` ADD PRIMARY KEY (`id`)");
     dbUser.run("ALTER TABLE `accounts` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2");*/
-    //Een of andere If-statement met een of ander stuk code waarin duidelijk gemaakt wordt van yo, er is een boek gekocht, update productsPurchased. 
+
+    if (confirmPurchase() == true){
+        dbUser.run("UPDATE `accounts` SET `username` = 'Joshua' WHERE `id` = 2");
+    }
 });
+
+
+
 
 
 var appLogin = express();

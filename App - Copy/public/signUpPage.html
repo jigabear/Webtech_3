@@ -5,25 +5,30 @@
     <meta charset="utf-8">
     <meta name="description">
     <meta name="keywords">
-    <link rel="stylesheet" type="text/css" href="../styles/myStyle.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/myStyle.css">
     <script type="text/javascript" src="../js/test.js"></script>
     <meta name="viewport" content="width=device-width">
     <title>Sign up</title>
 </head>
 
-<body id="body">
-    <header id="header">
-        <div class="container">
-            <div id="branding">
-                <h1 id="head">Webshop</h1>
+<body>
+    <header>
+        <div class="top_head">
+            <div class="logo">
+                    <a href="index.html">
+                            <img src="../images/logoUtrecht.png" alt="Utrecht University logo" style="width:8%;height:8%;" />
+                    </a>
+                <h1>Webshop</h1>
             </div>
-            <nav>
+        </div>
+
+        <section id="submenu">
                 <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="products.html">Products</a></li>
                     <li id="loginButton"><a href="loginPage.html">Log in</a></li>
                     <li class="current" id="signupButton"><a href="signUpPage.html">Sign up</a></li>
-            </nav>
+                </ul>
             <section id="search">
                 <!-- Search form -->
                 <form action="#" onsubmit="return false;" method="get">
@@ -35,7 +40,7 @@
     </header>
 
     <section id=login>
-        <p id=loginText>Please enter your credentials</p>
+        <h1 id="signupText">Sign-up form</h1>
         <label for="fName"></label>
         <input type="text" id="inputFname" placeholder="Enter First Name" name="fName" required>
         <br>

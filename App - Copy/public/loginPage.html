@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description">
     <meta name="keywords">
-    <link rel="stylesheet" type="text/css" href="../styles/myStyle.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/myStyle.css">
     <script type="text/javascript" src="js/test.js"></script>
     <meta name="viewport" content="width=device-width">
     <title>Log in</title>
@@ -17,11 +17,10 @@
             <!-- Defining the top head element -->
             <div class="logo">
                 <!-- Defining the logo element -->
-                <h1>Utrecht bookstore</h1>
-
                 <a href="index.html">
                     <img src="../images/logoUtrecht.png" alt="Utrecht University logo" style="width:8%;height:8%;" />
                 </a>
+                <h1>Utrecht bookstore</h1>
             </div>
         </div>
 
@@ -60,11 +59,11 @@
     </section>-->
 
     <div class="login-form">
-        <h1>Login Form</h1>
+        <h1 id="loginText">Login Form</h1>
         <form action="auth" method="POST">
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="submit">
+            <input type="text" id = "inputUsername" name="username" placeholder="Username" required><br>
+            <input type="password" id="inputPsw" name="password" placeholder="Password" required><br><br>
+            <input type="submit" id="loginSubmit">
         </form>
     </div>
 

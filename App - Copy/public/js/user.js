@@ -55,10 +55,5 @@ db.run("INSERT OR IGNORE INTO Users (fName, lName, email, psw, productsPurchased
 
 
 //Een of andere If-statement met een of ander stuk code waarin duidelijk gemaakt wordt van yo, er is een boek gekocht, update productsPurchased. 
-
-
 });
 db.close();
-
-
-
