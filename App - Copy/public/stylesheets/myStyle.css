@@ -115,9 +115,15 @@ li#loginButton {
     text-align: center;
 }
 
+.login-form{
+    border: 3px solid #f1f1f1;
+    text-align: center;
+}
+
 
 /* Login screen */
 
+#inputUsername,
 #inputEmail,
 #inputPsw,
 #inputFname,
